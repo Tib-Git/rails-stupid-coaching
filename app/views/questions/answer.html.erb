@@ -1,0 +1,17 @@
+<div class="container mt-5">
+  <div class="card shadow">
+    <div class="card-body">
+      <h5 class="card-title text-primary">You</h5>
+      <p class="card-text"><%= @question %></p>
+
+      <hr>
+
+      <h5 class="card-title text-success">Your coach</h5>
+      <p class="card-text"><%= @reponse %></p>
+
+      <div class="mt-4">
+        <%= link_to "Ask something else to your stupid Coach 🤪", ask_path, class: "btn btn-outline-secondary" %>
+      </div>
+    </div>
+  </div>
+</div>
